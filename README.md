@@ -1,7 +1,7 @@
 # CCASS_shareholdings
 
 ## Step 1
-import shareholdings.py
+import shareholdings.py\
 Create Shareholdings object with below parameters\
   &nbsp;&nbsp;:param stock_code: int\
   &nbsp;&nbsp;:param start_date: datetime.date\
