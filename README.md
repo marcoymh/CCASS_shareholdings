@@ -1,13 +1,14 @@
 # CCASS_shareholdings
 
 ## Step 1
+import shareholdings.py
 Create Shareholdings object with below parameters\
   &nbsp;&nbsp;:param stock_code: int\
   &nbsp;&nbsp;:param start_date: datetime.date\
   &nbsp;&nbsp;:param end_date: datetime.date
 
 ## Step 2
-run the function trend_plot\
+run the function trend_plot
   1) to generate top 10 shareholdings time series plot 'top_10_plot.png'
   2) to generate csv file 'tabular_data.csv' as table with filter in excel
 
