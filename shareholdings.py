@@ -62,9 +62,8 @@ class Shareholdings:
         top10_dict = {k: v for (k, v) in self.sh_dict.items() if k in self.top10}
         df = pd.DataFrame(top10_dict)
         df.plot(legend=True,figsize=(15,10))
-        plt.legend(bbox_to_anchor=(1.0, 0.5))
-        plt.show()
-        plt.savefig('top_10_plot.png')
+        plt.legend(bbox_to_anchor=(1, 0.8))
+        plt.savefig('top_10_plot.png', bbox_inches='tight')
 
     def display_tabular_data(self):
         '''
