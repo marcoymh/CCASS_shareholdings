@@ -1,6 +1,7 @@
 # CCASS_shareholdings
 
 Create Shareholdings object with below parameters
+
   :param stock_code: int
   :param start_date: datetime.date
   :param end_date: datetime.date
